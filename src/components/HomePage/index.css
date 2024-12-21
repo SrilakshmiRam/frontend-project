@@ -1,0 +1,41 @@
+.home-container{
+    min-height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px #ddd solid;
+    padding: 5px;
+}
+
+.nav-button{
+    height: 20px;
+    width: 100px;
+    background-color: transparent;
+    outline: none;
+    border-width: 0px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+
+.nav-link{
+    text-decoration: none;
+}
+
+
+.list-items{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    align-items: center;
+}
